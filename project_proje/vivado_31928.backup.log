@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Dec 26 15:30:32 2020
+# Process ID: 31928
+# Current directory: C:/Users/asus/Desktop/project_proje
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33548 C:\Users\asus\Desktop\project_proje\project_proje.xpr
+# Log file: C:/Users/asus/Desktop/project_proje/vivado.log
+# Journal file: C:/Users/asus/Desktop/project_proje\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/asus/Desktop/project_proje/project_proje.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: top_module
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:40 ; elapsed = 00:01:21 . Memory (MB): peak = 853.996 ; gain = 643.703
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_module' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Top_Module.vhd:22]
+INFO: [Synth 8-3491] module 'servomodule' declared at 'C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/servo.vhd:6' bound to instance 'Servo_module' of component 'servomodule' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Top_Module.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'servomodule' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/servo.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'servomodule' (1#1) [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/servo.vhd:14]
+INFO: [Synth 8-3491] module 'rangesensor' declared at 'C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Range_sensor_1.vhd:7' bound to instance 'RS1' of component 'rangesensor' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Top_Module.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'rangesensor' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Range_sensor_1.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'rangesensor' (2#1) [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Range_sensor_1.vhd:15]
+INFO: [Synth 8-3491] module 'rangesensor2' declared at 'C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Range_sensor_2.vhd:7' bound to instance 'RS2' of component 'rangesensor2' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Top_Module.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'rangesensor2' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Range_sensor_2.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'rangesensor2' (3#1) [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Range_sensor_2.vhd:14]
+INFO: [Synth 8-3491] module 'counter' declared at 'C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/counter.vhd:6' bound to instance 'Counter1' of component 'counter' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Top_Module.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'counter' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/counter.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'counter' (4#1) [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/counter.vhd:12]
+INFO: [Synth 8-3491] module 'anode_decoder' declared at 'C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/anode_decoder.vhd:5' bound to instance 'AnodeDecoder' of component 'anode_decoder' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Top_Module.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'anode_decoder' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/anode_decoder.vhd:10]
+INFO: [Synth 8-226] default block is never used [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/anode_decoder.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'anode_decoder' (5#1) [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/anode_decoder.vhd:10]
+INFO: [Synth 8-3491] module 'BCD' declared at 'C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/BCD.vhd:5' bound to instance 'BtoD' of component 'BCD' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Top_Module.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'BCD' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/BCD.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'BCD' (6#1) [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/BCD.vhd:10]
+INFO: [Synth 8-3491] module 'Muxx' declared at 'C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Multiplexer.vhd:6' bound to instance 'Multiplexer' of component 'Muxx' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Top_Module.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'Muxx' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Multiplexer.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Muxx' (7#1) [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Multiplexer.vhd:13]
+INFO: [Synth 8-3491] module 'buzzer' declared at 'C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Buzzer.vhd:5' bound to instance 'Buzzerr' of component 'buzzer' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Top_Module.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'buzzer' [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Buzzer.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'buzzer' (8#1) [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Buzzer.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'top_module' (9#1) [C:/Users/asus/Desktop/project_proje/project_proje.srcs/sources_1/new/Top_Module.vhd:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:41 ; elapsed = 00:01:22 . Memory (MB): peak = 860.684 ; gain = 650.391
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:41 ; elapsed = 00:01:22 . Memory (MB): peak = 860.684 ; gain = 650.391
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/asus/Desktop/project_proje/project_proje.srcs/constrs_1/new/proje_const.xdc]
+Finished Parsing XDC File [C:/Users/asus/Desktop/project_proje/project_proje.srcs/constrs_1/new/proje_const.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:53 ; elapsed = 00:01:31 . Memory (MB): peak = 1168.215 ; gain = 957.922
+31 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 1168.215 ; gain = 314.219
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 26 15:45:44 2020...
